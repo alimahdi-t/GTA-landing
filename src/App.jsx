@@ -6,9 +6,10 @@ gsap.registerPlugin(ScrollTrigger);
 const App = () => {
   return (
     <main>
-      <div>
-        <h1 className="text-3xl">Welcome to World of GTA and Gsap!</h1>
-      </div>
+      <nav>
+        <img src="/images/nav-logo.svg" alt="logo" className="scale-90" />
+        <img src="/images/menu.svg" alt="menu" className="w-10" />
+      </nav>
     </main>
   );
 };
