@@ -1,3 +1,5 @@
+import ComingSoon from "./ComingSoon.jsx";
+
 const Hero = () => {
   return (
     <section className="hero-section">
@@ -32,6 +34,8 @@ const Hero = () => {
           className="overlay-logo"
         />
       </div>
+
+      <ComingSoon />
     </section>
   );
 };
