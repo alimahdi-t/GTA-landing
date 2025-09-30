@@ -1,15 +1,15 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all.js";
+import Hero from "./sections/Hero.jsx";
+import Navbar from "./sections/Navbar.jsx";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   return (
     <main>
-      <nav>
-        <img src="/images/nav-logo.svg" alt="logo" className="scale-90" />
-        <img src="/images/menu.svg" alt="menu" className="w-10" />
-      </nav>
+      <Navbar />
+      <Hero />
     </main>
   );
 };
